@@ -28,12 +28,16 @@ body{
 }
 
 .email{
+    font-size: 15px;
     color: white;
     display: inline-block;
+    font-family: Segoe UI;
 }
 .pass{
+    font-size: 15px;
     color: white;
     display: inline-block;
+    font-family: Segoe UI;
 }
 .allForm{
     position: absolute;
@@ -43,8 +47,10 @@ body{
 .button{
     background-color: #5972a7;
     color: white;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: helvetica;
     cursor: pointer;
+    width: 60px;
+    font-weight: bold;
 }
 .faintText{
     color: rgba(255, 255, 255, 0.544);
@@ -71,11 +77,13 @@ a.forgetPass:hover {
 .firstLine a , .secondLine a , .thirdLine a{
     color: #1948ad;
     margin-left:2%;
+    font-family: helvetica;
 }
 .firstLine , .secondLine , .thirdLine{
-    margin-top: 5px;
+    margin-top: 10px;
     width: 60%;
     margin-left: 11%;
+    font-size: 15px;
 }
 .bottomLine{
     width: 75%;
@@ -95,10 +103,11 @@ a.forgetPass:hover {
 }
 
 .fbText {
-    color: #153e64;
+   color: #153e64;
     width: 70%;
     margin-top: 30px;
-    margin-left: 30%;
+    margin-left: 40%;
+    font-family: Segoe UI;
 }
 img{
     margin-left: 30%;
@@ -202,6 +211,7 @@ p a:hover {
     cursor: pointer;
     font-size: 16px;
     font-weight: bold;
+    font-family: helvetica;
 }
 .p2{
     color: rgb(102, 98, 98);
