@@ -1,0 +1,214 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+input{
+    padding-left: 5px;
+}
+
+body{
+    background: linear-gradient(to top,#d4d9e8,#ffffff);
+    height:100vh;
+}
+
+.topBorder{
+    width: 100%;
+    height: 12%;
+    background: #3c5c91;
+    position: relative;
+}
+
+.facebookText{
+    color: white;
+    font-family: monospace;
+    font-size: 45px;
+    position: absolute;
+    left: 15%;
+    bottom: 5px;
+}
+
+.email{
+    color: white;
+    display: inline-block;
+}
+.pass{
+    color: white;
+    display: inline-block;
+}
+.allForm{
+    position: absolute;
+    right: 6%;
+    top: 30px;
+}
+.button{
+    background-color: #5972a7;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.faintText{
+    color: rgba(255, 255, 255, 0.544);
+    font-size: 15px;
+    margin-top: 1px;
+}
+.forgetPass{
+    color: rgba(255, 255, 255, 0.544);
+    margin-left: 10%;
+}
+a{
+    text-decoration: none;
+}
+a.forgetPass:hover {
+    color: white;
+}
+.bottomBorder{
+    background: white;
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    bottom: 0%;
+}
+.firstLine a , .secondLine a , .thirdLine a{
+    color: #1948ad;
+    margin-left:2%;
+}
+.firstLine , .secondLine , .thirdLine{
+    margin-top: 5px;
+    width: 60%;
+    margin-left: 11%;
+}
+.bottomLine{
+    width: 75%;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.bottomBorder a:hover{
+    color: #6c82b1;
+}
+.middlePage {
+    display: flex;
+}
+
+.middleLeft, .middleRight {
+    width: 50%;
+}
+
+.fbText {
+    color: #153e64;
+    width: 70%;
+    margin-top: 30px;
+    margin-left: 30%;
+}
+img{
+    margin-left: 30%;
+    margin-top: 5px;
+}
+.middleRight{
+    margin-top: 25px;
+    margin-left: 32%;
+    h2{
+        color: rgba(0, 0, 0, 0.707);
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    h3{
+        color: #272a53;
+        font-size: 21px;
+    }
+    hr{
+        width: 90%;
+        margin-top: 10px;
+    }
+}
+.firstName , .lastName{
+    height: 25px;
+    margin-right: 5px;
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 34.5%;
+}
+.emaill , .reenterEmail , .password{
+    width: 72%;
+    height: 25px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+input::placeholder {
+    color: gray;
+    padding-left: 10px;
+}
+.styledDate{
+    width: 35%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    color: gray;
+    cursor: pointer;
+}
+.middleRight input:focus {
+    border-color: #3b5998;
+    outline: none;
+}
+.whyBirthday{
+    font-size: 15px;
+    color:#1948ad ;
+}
+.whyBirthday:hover {
+    color: #6c82b1;
+}
+label{
+    display: inline-block;
+    color: #3c3c3d;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+input[type="radio"] {
+    width: 18px;
+    height: 15px;
+    display: inline-block;
+    cursor: pointer;
+}
+.p1{
+    color: rgb(138, 133, 133);
+    width: 85%;
+    margin-top: 10px;
+    font-size: 15px;
+    a{
+        color:#1948ad ;
+    }
+}
+p a:hover {
+    color: #6c82b1;
+    cursor: pointer;
+}
+.signUp{
+    color: white;
+    background-color: #5d994a;
+    border-radius: 5px;
+    width: 40%;
+    height: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+.p2{
+    color: rgb(102, 98, 98);
+    width: 85%;
+    margin-top: 10px;
+    font-size: 16px;
+    a{
+        color:#1948ad ;
+    }
+}
